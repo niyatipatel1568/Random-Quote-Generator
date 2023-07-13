@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right bottom, lightblue, lightgreen);
+    display: flex;
+    min-height: 100vh;
+}
+
+.container{
+    position: absolute;
+    bottom: 234px;
+    right: 117px;
+    background-color: #35A29F;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    padding: 30px;
+    border-radius: 15px;
+    width: 77%;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.subcontainer{
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.author{
+    font-size: 21px;
+}
+.button{
+    padding: 7px 28px;
+    border-radius: 13px;
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: #0B666A;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+   
+}
+.button:hover{
+    box-shadow: 0 4px 4px;
+    color: antiquewhite;
+}
